@@ -1,0 +1,50 @@
+/* You write comments this way. */
+/* Start by changing the format of the body element */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: royalblue;
+    background-color:gold;
+}
+/* element selectors affect any element you name p, body, div */
+ol {
+    color:royalblue;
+}
+ul{
+    color:royalblue;
+}
+
+li{
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: line-through;
+    color:royalblue;
+}
+
+/* class selectors: start with . affect any element block where you place a 
+class attribute */
+
+.heading_text {
+    font-weight: bold;
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.link_text {
+    /* font-weight: bold; */
+    color: white;
+    font-style: italic;
+}
+
+/* Create a new class selector with a smaller font-size
+make the text have a strike through it and apply it to a single word in your
+website */
+
+.strike_text {
+    font-size: small;
+    color: royalblue;
+    text-decoration: line-through;
+}

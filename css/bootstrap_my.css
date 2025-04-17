@@ -1,0 +1,18 @@
+.my_special_text{
+
+    text-decoration: underline;
+}
+.email_color{
+    color: rgb(96, 94, 94);
+    font-weight: 500;
+}
+a:hover {
+    text-decoration: underline;
+}
+.header_royal_blue{
+    color: royalblue;
+}
+
+.subheader_black{
+    color: black;
+}
